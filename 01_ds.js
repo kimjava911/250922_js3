@@ -17,3 +17,13 @@ console.log(obj[1]); // 숫자로 시작하거나 공백을 포함하는 경우
 console.log(Object.keys(obj)); // 키들의 배열
 console.log(Object.values(obj)); // 값들의 배열
 console.log(Object.entries(obj)); // [키, 값]의 배열
+// for in.
+
+// Array
+// 0개 이상의 데이터 묶음 -> 0개 이상 -> [] 빈 배열.
+const arr = [1, 2, 3];
+// CRUD...
+// for of.
+console.log(arr);
+arr.length = 0; // 길이 -> arr.length -> 길이. 
+console.log(arr); // length를 0으로 하면 지워진다
